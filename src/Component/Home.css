@@ -1,0 +1,86 @@
+.hey{
+  font-size: 20px;
+  color: #DCD2C6;
+  font-weight: 700;
+  font-family: cursive;
+  margin-left: 100px;
+  transform: translateY(100px);
+
+  
+}
+.name{
+  margin-left: 400px;
+  font-size: 70px;
+  color: #DCD2C6;
+  transform: translateY(100px);
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 700;
+  /* animation: 3s linear 1s infinite running slide-in; */
+  opacity: 0;
+  animation: fadeIn 5s ease forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.description{
+  margin-left: 400px;
+  font-size: 20px;
+  color: #DCD2C6;
+  transform: translateY(100px);
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 500;
+}
+
+
+#button{
+  margin-left: 700px;
+  margin-top: 290px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+
+.rotating-image {
+  translate: 850% -400%;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5), 0 0 20px rgba(255, 255, 255, 0.5);
+  width: 150px;               /* Adjust size as needed */
+  height: 150px;
+  animation: spin 6s linear infinite;
+  border-radius: 300px
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.panda{
+  translate: 10% -130%;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5), 0 0 20px rgba(66, 31, 171, 0.5);
+  animation:  6s linear infinite;
+}
+
+@keyframes bounce {
+  0%   { transform: translateY(0); }
+  30%  { transform: translateY(-25px); }
+  50%  { transform: translateY(0); }
+  70%  { transform: translateY(-15px); }
+  100% { transform: translateY(0); }
+}

@@ -1,0 +1,54 @@
+body{
+    background-color: #470fd5;
+}
+
+
+.content{
+    display : flex;
+    flex-direction: column;
+    width: fit-content;
+    color: rgb(251, 253, 254);
+    font-size: 70px;
+    font-weight: 600;
+    margin-top: 100px;
+    margin-left: 100px;
+
+}
+
+.hiring{
+    color: seashell;
+    margin-left: 900px;
+    margin-top: -300px;
+
+
+}
+
+.hiring-image {
+    width: 400px;
+    height: 300px;
+    border-radius: 10%;
+    margin-top: 20px;
+    margin-left: -10px;
+    box-sizing: content-box;
+    box-shadow: 2px 3px 10px rgba(249, 249, 249, 0.911);
+}
+
+
+.about{
+    cursor: pointer;
+    box-shadow: 20px 20px 60px rgba(0, 0, 0, 0.5);
+}
+
+.project{
+    cursor: pointer;
+    box-shadow: 20px 20px 60px rgba(0, 0, 0, 0.5);
+
+}
+
+.skill{
+    cursor: pointer;
+    box-shadow: 20px 20px 60px rgba(0, 0, 0, 0.5);
+
+}
+
+

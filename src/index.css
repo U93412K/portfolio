@@ -1,0 +1,37 @@
+/* body{
+    background-color: #e9c54e;
+}
+
+
+.content{
+    display : flex;
+    flex-direction: column;
+    color: rgb(251, 253, 254);
+    font-size: 70px;
+    font-weight: 600;
+    margin-left: -920px;
+    margin-top: 70px;
+
+}
+
+.hiring{
+    color: seashell;
+    margin-left: 900px;
+    margin-top: -300px;
+
+
+}
+
+.hiring-image {
+    width: 400px;
+    height: 300px;
+    border-radius: 10%;
+    margin-top: 20px;
+    margin-left: -10px;
+    box-sizing: content-box;
+    box-shadow: 2px 3px 10px rgba(249, 249, 249, 0.911);
+}
+
+
+
+ */

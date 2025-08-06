@@ -1,0 +1,182 @@
+@import "tailwindcss";
+
+
+.heading{
+    color: rgba(223, 226, 226, 0.986);
+    translate: 0%;
+    font-size: 60px;
+    font-weight: 600;
+    font-family:cursive;
+    text-decoration: solid underline;
+    overflow: hidden;              
+    border-right: 2px solid #333; /* Optional: blinking cursor effect */
+    white-space: nowrap;          /* Prevent line break */
+    letter-spacing: 2px;
+    animation: typing 4s steps(30, end) forwards,blink 0.75s step-end 2s infinite;
+    width: 0;  
+    
+}
+
+
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+@keyframes blink {
+  50% { border-color: transparent; }
+}
+
+.amazon-img {
+  height: 500px;
+  width: 700px;
+  margin-left: 20px;
+  border-radius: 20px;
+  
+}
+
+.first-project-content{
+  margin-left: 900px;
+  margin-top: -550px;
+  font-size: 60px;
+  font-weight: 300;
+  font-family: fantasy;
+  
+
+  
+}
+
+.project-description{
+  font-size: 20px;
+  font-weight: 100;
+  font-family: cursive;
+  color: silver;
+}
+
+
+.amazon-img-2{
+  
+  height: 500px;
+  width: 700px;
+  margin-left: 750px;
+  border-radius: 20px;
+  translate: 0% 60%;
+  
+}
+
+.project-name-2{
+  margin-left: 200px;
+  margin-top: -150px;
+  font-size: 60px;
+  font-weight: 300;
+  font-family: fantasy;
+}
+
+.project-description-2{
+  font-size: 20px;
+  font-weight: 100;
+  font-family: cursive;
+  color: silver;
+  margin-left: 0px;
+  margin-top: -600px;
+  margin-right: 800px;
+  
+}
+
+.amazon-img-3 {
+
+  height: 500px;
+  width: 700px;
+  margin-left: 10px;
+  border-radius: 20px;
+  margin-top: 90px;
+  
+}
+
+.project-name-3{
+  margin-left: 920px;
+  margin-top: -500px;
+  font-size: 60px;
+  font-weight: 300;
+  font-family: fantasy;
+}
+
+.project-description-3{
+  font-size: 20px;
+  font-weight: 100;
+  font-family: cursive;
+  color: silver;
+  margin-left: 800px;
+  margin-top: -600px;
+  
+  
+}
+
+.amazon-img-4 {
+  height: 500px;
+  width: 700px;
+  margin-left: 750px;
+  border-radius: 20px;
+  margin-top: -300px;
+}
+
+.project-name-4{
+  margin-left: 200px;
+  margin-top: -500px;
+  font-size: 60px;
+  font-weight: 300;
+  font-family: fantasy;
+}
+
+.project-description-4{
+  font-size: 20px;
+  font-weight: 100;
+  font-family: cursive;
+  color: silver;
+  margin-left: 10px;
+  margin-top: -600px;
+  margin-right: 800px;
+  
+}
+
+
+.ending{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 140px;
+  color: steelblue;
+  font-size: 30px;
+  font-weight: 600;
+  font-family: cursive;
+
+  
+}
+
+.loading{
+  translate: 4900% -390%;
+  opacity: 0.8;
+
+}
+
+
+ .btn-primary {
+    border-radius: calc(infinity * 1px);
+    background-color: var(--color-violet-500);
+    padding-inline: --spacing(5);
+    padding-block: --spacing(2);
+    font-weight: var(--font-weight-semibold);
+    color: var(--color-white);
+    box-shadow: var(--shadow-md);
+    translate: 250% 950%;
+
+
+    &:hover {
+      @media (hover: hover) {
+        background-color: var(--color-violet-700);
+      }
+    }
+  } 
+
+   
