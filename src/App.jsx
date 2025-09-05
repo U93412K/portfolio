@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import Welcome from './Component/welcome.jsx'
+import Welcome from './Component/Welcome.jsx'
 import MainContent  from './Component/MainContent.jsx'
 import Home from './Component/Home.jsx'
 import About from './Component/About.jsx'
